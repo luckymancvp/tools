@@ -1,0 +1,17 @@
+box: wercker/php
+# Build definition
+build:
+  # The steps that will be executed on build
+  steps:
+    # A custom script step, name value is used in the UI
+    # and the code value contains the command that get executed
+
+    # Add more steps here:
+    - bugscal/new-ftp-deploy:
+        destination: ftp://santhuexehanoi.com/public_html
+        username: santhuexe
+        password: SanthuexeHanoi@123
+        exclude-patterns: [
+            "./yii",
+            "./protected/extensions/yii-debug-toolbar"
+        ]

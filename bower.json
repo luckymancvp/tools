@@ -1,0 +1,19 @@
+{
+  "name": "facebook",
+  "version": "0.0.0",
+  "authors": [
+    "luckymancvp <luckymancvp@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "startbootstrap-sb-admin-2": "~1.0.5"
+  }
+}

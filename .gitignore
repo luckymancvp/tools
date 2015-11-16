@@ -1,0 +1,7 @@
+/assets/*
+!/assets/.gitkeep
+/protected/runtime/*
+!/protected/runtime/.gitkeep
+.idea/*
+.DS_Store
+*.zip

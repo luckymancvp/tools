@@ -1,0 +1,6 @@
+[submodule "yii"]
+	path = yii
+	url = https://github.com/luckymancvp/yii.git
+[submodule "protected/extensions/yii-debug-toolbar"]
+	path = protected/extensions/yii-debug-toolbar
+	url = https://github.com/malyshev/yii-debug-toolbar.git
